@@ -110,7 +110,7 @@ customElements.define("standard-side-bar", class extends HTMLElement {
             <div class="first-column">
                 <img src="${magicMirrorRootPath}/res/peddielogo.png" class="logo alt=" peddie logo>
                 <time-display-widget></time-display-widget>
-                <weather-widget></weather-widget>
+                <!--<weather-widget></weather-widget>-->
                 <pfs-menu-widget></pfs-menu-widget>
                 <graduation-countdown-widget>hello</graduation-countdown-widget>
             </div>
@@ -210,13 +210,13 @@ customElements.define("pictures-of-the-week-widget", class extends HTMLElement {
 
 customElements.define("weather-widget", class extends HTMLElement {
     connectedCallback() {
-        this.innerHTML = `
+        /*this.innerHTML = `
             <h3>
                 Weather
     
             </h3>
             <div><code class="language-python match-braces menu" id="current-weather" style="font-family: 'open-sans', sans-serif;"> </code></div> </code></div>
-        `;
+        `;*/
 
         fetch(magicMirrorRootPath + "/data/weather.txt")
             .then(response => {
