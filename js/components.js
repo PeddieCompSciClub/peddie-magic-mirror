@@ -201,7 +201,7 @@ customElements.define("pictures-of-the-week-widget", class extends HTMLElement {
             <div class='student_section2'>
                 <!-- <iframe src="https://www.peddie.org/tv-monitor/student-photography-test-page"></iframe> -->
                 <div>
-                <a data-flickr-embed="true" href="https://www.flickr.com/photos/peddieschool/" title=""><img src="https://live.staticflickr.com/65535/55107072840_8f7edcaa04_h.jpg" width="500" alt=""/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+                <a data-flickr-embed="true" href="https://www.flickr.com/photos/peddieschool/" title=""><img src="https://live.staticflickr.com/65535/51204472531_d5024ed857_o.jpg" width="500" alt=""/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
                 </div>
             </div>
         `;
